@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2a160c" />
+    <title>Undangan Pernikahan - Ma'arif & Adella</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@200;300;400;500&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+    <!-- Background Foto -->
+    <div class="page-background" id="pageBackground">
+      <img
+        id="bgImg"
+        src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80"
+        alt="Background"
+      />
+    </div>
+
+    <!-- Cover -->
+    <section class="cover" id="cover">
+      <div class="leaf leaf-tl" id="leafTL"></div>
+      <div class="leaf leaf-tr" id="leafTR"></div>
+
+      <div class="cover-photo">
+        <img
+          id="coverImg"
+          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+          alt="Couple"
+        />
+      </div>
+
+      <div class="cover-content">
+        <p class="cover-kicker">Pawiwahan</p>
+        <h1 class="cover-names" id="coverNames">
+          Ma'arif<span class="amp">&amp;</span>Adella
+        </h1>
+        <p class="cover-subtitle">
+          <span class="guest-label">Kepada Yth. Bapak/Ibu/Saudara/i</span>
+          <span class="guest-name" id="guestName">Tamu Undangan</span>
+        </p>
+        <button type="button" class="btn-open" id="btnOpen">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"
+            />
+          </svg>
+          Buka Undangan
+        </button>
+      </div>
+    </section>
+
+    <!-- Konten -->
+    <main class="content" id="content">
+      <section class="card fade-in">
+        <p class="section-sub">Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+        <h2 class="section-script">Sugeng Rawuh</h2>
+        <p class="story-text">
+          Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
+          menyelenggarakan pernikahan putra-putri kami. Kehadiran dan doa
+          restu Bapak/Ibu/Saudara/i sangat berarti bagi kami.
+        </p>
+      </section>
+
+      <!-- ACARA -->
+      <section class="event-section fade-in">
+        <h2 class="section-script">Akad Nikah</h2>
+        <div class="event-block">
+          <h3>Gedung Acara 1</h3>
+          <p class="venue">
+            <strong>Masjid Al-Ikhlas</strong>Jl. Jatipadang Raya 15,<br />Jakarta
+            Selatan
+          </p>
+          <p class="venue">Minggu, 29 Agustus 2027<br />10.00 – 12.00 WIB</p>
+          <div class="btn-row">
+            <a class="btn-pill" id="btnMap1" href="#">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
+                />
+              </svg>
+              Map
+            </a>
+            <a class="btn-pill outline" id="btnCalendar" href="#">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19 3h-1V1h-2v2H8V1H6v2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm0 16H5V9h14v10zM7 11h5v5H7z"
+                />
+              </svg>
+              Calendar
+            </a>
+          </div>
+        </div>
+
+        <div class="divider-dot"></div>
+
+        <h2 class="section-script">Resepsi</h2>
+        <div class="event-block">
+          <h3>Gedung Acara 2</h3>
+          <p class="venue">
+            <strong>Atria Hotel Malang</strong>Jl. Jatipadang Raya 15,<br />Jakarta
+            Selatan
+          </p>
+          <p class="venue">Minggu, 29 Agustus 2027<br />10.00 – 12.00 WIB</p>
+          <div class="btn-row">
+            <a class="btn-pill" id="btnMap2" href="#">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
+                />
+              </svg>
+              Map
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOVE STORY -->
+      <section class="card fade-in">
+        <h2 class="section-script">Our Love Story</h2>
+        <h3 class="section-title">Pertemuan</h3>
+        <p class="section-sub">Kampus, 2015</p>
+        <p class="story-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div class="dots">
+          <span class="active"></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="fade-in">
+        <h2 class="gallery-script">Photo Gallery</h2>
+        <div class="gallery-grid">
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
+            alt="Gallery 1"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80"
+            alt="Gallery 2"
+          />
+          <img
+            class="wide"
+            src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80"
+            alt="Gallery 3"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80"
+            alt="Gallery 4"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=600&q=80"
+            alt="Gallery 5"
+          />
+        </div>
+      </section>
+
+      <!-- COUNTDOWN -->
+      <section class="countdown-section fade-in">
+        <h2 class="section-script" style="font-size: 2.4rem">
+          Menuju Hari Bahagia
+        </h2>
+        <div class="countdown" id="countdown">
+          <div class="unit">
+            <span class="num" id="days">0</span><span class="label">Hari</span>
+          </div>
+          <div class="unit">
+            <span class="num" id="hours">0</span><span class="label">Jam</span>
+          </div>
+          <div class="unit">
+            <span class="num" id="minutes">0</span
+            ><span class="label">Menit</span>
+          </div>
+          <div class="unit">
+            <span class="num" id="seconds">0</span
+            ><span class="label">Detik</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== DAFTAR HADIR / RSVP ==================== -->
+      <section class="rsvp-section fade-in">
+        <h2 class="section-script" style="font-size: 2.4rem">Daftar Hadir</h2>
+        <p class="section-sub">Konfirmasi Kehadiran</p>
+
+        <!-- Statistik -->
+        <div class="rsvp-stats">
+          <div class="stat-box">
+            <span class="stat-num" id="statHadir">0</span>
+            <span class="stat-label">Hadir</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statTidak">0</span>
+            <span class="stat-label">Tidak Hadir</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statTotal">0</span>
+            <span class="stat-label">Total</span>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="rsvp-form" id="rsvpForm">
+          <div class="form-group">
+            <label for="inputNama">Nama Lengkap</label>
+            <input
+              type="text"
+              id="inputNama"
+              placeholder="Masukkan nama Anda"
+              required
+              maxlength="60"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="inputStatus">Status Kehadiran</label>
+            <select id="inputStatus" required>
+              <option value="">— Pilih Status —</option>
+              <option value="hadir">Hadir</option>
+              <option value="ragu">Masih Ragu</option>
+              <option value="tidak">Tidak Hadir</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="inputJumlah">Jumlah Tamu</label>
+            <select id="inputJumlah">
+              <option value="1">1 Orang</option>
+              <option value="2">2 Orang</option>
+              <option value="3">3 Orang</option>
+              <option value="4">4 Orang</option>
+              <option value="5">5+ Orang</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="inputUcapan">Ucapan & Doa</label>
+            <textarea
+              id="inputUcapan"
+              placeholder="Tulis ucapan & doa untuk mempelai..."
+              maxlength="300"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Kirim Konfirmasi</button>
+        </form>
+
+        <!-- Daftar Ucapan -->
+        <h3 class="wish-list-title">
+          Ucapan & Doa (<span id="wishCount">0</span>)
+        </h3>
+        <div class="wish-list" id="wishList">
+          <p class="wish-empty">Belum ada ucapan. Jadilah yang pertama!</p>
+        </div>
+      </section>
+
+      <!-- GIFT -->
+      <section class="card fade-in">
+        <h2 class="section-script" style="font-size: 2.4rem">Wedding Gift</h2>
+        <p
+          style="
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 20px;
+            font-weight: 300;
+          "
+        >
+          Doa restu Anda merupakan karunia yang sangat berarti bagi kami.
+        </p>
+        <div class="gift-wrap">
+          <div class="gift-card">
+            <p class="bank">Bank BCA</p>
+            <p class="norek">1234 5678 90</p>
+            <p class="owner">a.n. Ma'arif</p>
+          </div>
+          <div class="gift-card">
+            <p class="bank">Bank Mandiri</p>
+            <p class="norek">0987 6543 21</p>
+            <p class="owner">a.n. Adella</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="names">Ma'arif &amp; Adella</p>
+      <p class="thanks">
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+        Bapak/Ibu/Saudara berkenan hadir untuk memberikan doa restu.
+      </p>
+      <p class="small">Matur Nuwun · 2027</p>
+    </footer>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script src="data.js"></script>
+    <script src="undangan.js"></script>
+    <script>
+      // Cadangan: tetap bisa dibuka walau undangan.js gagal dimuat
+      document.getElementById("btnOpen").addEventListener("click", function () {
+        if (window.__undanganReady) return;
+        var cv = document.getElementById("cover");
+        cv.classList.add("opened");
+        document.body.classList.remove("locked");
+        document.querySelectorAll(".fade-in").forEach(function (el) { el.classList.add("show"); });
+        setTimeout(function () { cv.style.display = "none"; }, 1900);
+      });
+    </script>
+  </body>
+</html>
